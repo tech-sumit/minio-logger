@@ -29,7 +29,7 @@ jobs:
         # An application name
         name: minio 
         # Space or comma separated list of GOARCH
-        arch: amd64,x86,arm,armbe
+        arch: amd64,arm,armbe
         dest: ./dist
         os: darwin,linux,windows
         package: .
