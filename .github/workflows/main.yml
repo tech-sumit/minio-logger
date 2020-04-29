@@ -34,3 +34,6 @@ jobs:
         os: linux
         package: .
         goxz-version: v0.4.1
+    - name: GitHub Upload Release Artifacts
+      uses: Roang-zero1/github-upload-release-artifacts-action@v2.1.0
+    
