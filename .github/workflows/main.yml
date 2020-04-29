@@ -31,6 +31,6 @@ jobs:
         # Space or comma separated list of GOARCH
         arch: amd64,arm,armbe
         dest: ./dist
-        os: darwin,linux,windows
+        os: linux
         package: .
         goxz-version: v0.4.1
